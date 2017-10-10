@@ -2,8 +2,10 @@
 2、http://www.jianshu.com/p/075f633a6913
 3、https://zhuanlan.zhihu.com/p/21284064
 4、http://blog.csdn.net/hzp666/article/details/76070346
-深度学习必备的专业术语总结
+
+
 一、YunTuring阅读文献总结的：
+
 1. region proposal(候选区域) RP
 2. RPN(Region Proposal Networks)
 3. warp 缩放
@@ -24,6 +26,7 @@
 
 
 二、知乎专栏里别人总结的：
+
 activation	                  激活值
 activation function	          激活函数
 additive noise	                  加性噪声
