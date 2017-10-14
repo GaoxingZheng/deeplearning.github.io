@@ -1,4 +1,5 @@
-#### 参考网址  
+### 深度学习常用术语中英文对照表
+#### 参考网址  
 1、http://blog.csdn.net/zj15939317693/article/details/75064446  
 2、http://www.jianshu.com/p/075f633a6913  
 3、https://zhuanlan.zhihu.com/p/21284064  
