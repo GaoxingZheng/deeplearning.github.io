@@ -1,11 +1,14 @@
-1、http://blog.csdn.net/zj15939317693/article/details/75064446  
+#### 参考网址  
+1、http://blog.csdn.net/zj15939317693/article/details/75064446  
 2、http://www.jianshu.com/p/075f633a6913  
 3、https://zhuanlan.zhihu.com/p/21284064  
 4、http://blog.csdn.net/hzp666/article/details/76070346  
 5、http://blog.csdn.net/zb1165048017/article/details/52973711  
 6、http://www.cnblogs.com/zhonghuasong/p/7256498.html  
 7、http://www.cnblogs.com/love6tao/p/5841648.html  
-#### Markdown换行操作：空格+空格+回车
+#### Markdown换行操作：空格+空格+回车  
+If you have any question to ask, please contact with me by emailing to zheng_gao_xing@163.com;
+It's my pleasure to discuss any question about AI if I understand it well.  
 
 一、YunTuring阅读文献总结的：
 
