@@ -1,36 +1,38 @@
-1、http://blog.csdn.net/zj15939317693/article/details/75064446
-2、http://www.jianshu.com/p/075f633a6913
-3、https://zhuanlan.zhihu.com/p/21284064
-4、http://blog.csdn.net/hzp666/article/details/76070346
-5、http://blog.csdn.net/zb1165048017/article/details/52973711
-
+1、http://blog.csdn.net/zj15939317693/article/details/75064446  
+2、http://www.jianshu.com/p/075f633a6913  
+3、https://zhuanlan.zhihu.com/p/21284064  
+4、http://blog.csdn.net/hzp666/article/details/76070346  
+5、http://blog.csdn.net/zb1165048017/article/details/52973711  
+6、http://www.cnblogs.com/zhonghuasong/p/7256498.html  
+7、http://www.cnblogs.com/love6tao/p/5841648.html  
+#### Markdown换行操作：空格+空格+回车
 
 一、YunTuring阅读文献总结的：
 
-1. region proposal(候选区域) RP
+1. region proposal(RP)     候选区域
 2. RPN(Region Proposal Networks)
-3. warp 缩放
-4. ROI Region of Interest 感兴趣区域
-5. SIFT 尺度不变特征变换
-6. hard negative mining 难分样本挖掘
-7. Graph-Based Image Segmentation  基于像素区域的图像分割算法
-8. Selective Search  选择性搜索
-9. Edge Boxes  边缘盒检测算法
-10. edge group  轮廓组
-11. Local binary patterns  局部二范式法（LBP算法）
-12. Local Response Normalization  局部响应归一化
-13. Rectified Liner Units  修正线性单元
-14. Non-maximum suppression  非极大抑制
-15. Overlap Pooling  重叠池化
-16. radical basis function（RBF）  径向基函数
-17. Dropout  随机隐退
-
+3. warp     缩放
+4. ROI Region of Interest     感兴趣区域
+5. SIFT     尺度不变特征变换
+6. hard negative mining     难分样本挖掘
+7. Graph-Based Image Segmentation     基于像素区域的图像分割算法
+8. Selective Search     选择性搜索
+9. Edge Boxes     缘盒检测算法
+10. edge group     轮廓组
+11. Local binary patterns     局部二范式法（LBP算法）
+12. Local Response Normalization     局部响应归一化
+13. Rectified Liner Units     修正线性单元
+14. Non-maximum suppression     非极大抑制
+15. Overlap Pooling     重叠池化
+16. radical basis function（RBF）     径向基函数
+17. Dropout     随机隐退
+18. data augmentation     数据增强
 
 二、知乎专栏里别人总结的：
 
-activation	                  激活值
-activation function	          激活函数
-additive noise	                  加性噪声
+activation	                  激活值  
+activation function	          激活函数  
+additive noise	                  加性噪声  
 autoencoder	                  自编码器
 Autoencoders	                  自编码算法
 average firing rate	          平均激活率
