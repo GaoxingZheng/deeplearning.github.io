@@ -84,80 +84,79 @@ hidden units	                  隐藏神经元
 Hierarchical grouping	          层次型分组  
 higher-order features	          更高阶特征  
 highly non-convex optimization problem	高度非凸的优化问题  
-histogram	                  直方图
-hyperbolic tangent	          双曲正切函数
-hypothesis	                  估值，假设
-identity activation function	  恒等激励函数
-IID	                          独立同分布
-illumination	                  照明
-inactive	                          抑制
-independent component analysis	  独立成份分析
-input domains	                  输入域
-input layer	                  输入层
+histogram	                  直方图  
+hyperbolic tangent	          双曲正切函数  
+hypothesis	                  估值，假设  
+identity activation function	  恒等激励函数  
+IID	                          独立同分布  
+illumination	                  照明  
+inactive	                          抑制  
+independent component analysis	  独立成份分析  
+input domains	                  输入域  
+input layer	                  输入层  
 intensity	                  亮度/灰度
-intercept term	                  截距
-KL divergence	                  相对熵
-KL divergence	                  KL分散度
-k-Means	                          K-均值
-learning rate	                  学习速率
-least squares	                  最小二乘法
-linear correspondence	          线性响应
-linear superposition	          线性叠加
-line-search algorithm	          线搜索算法
-local mean subtraction	          局部均值消减
-local optima	                  局部最优解
-logistic regression	          逻辑回归
-loss function	                  损失函数
-low-pass filtering	          低通滤波
-magnitude	                  幅值
-MAP	                          极大后验估计
-maximum likelihood estimation	  极大似然估计
-mean	                          平均值
-MFCC	Mel                       倒频系数
-multi-class classification	  多元分类
-neural networks	                  神经网络
-neuron	                          神经元
-Newton's method 	                  牛顿法
-non-convex function	          非凸函数
-non-linear feature	          非线性特征
-norm	                          范式
-norm bounded	                  有界范数
-norm constrained	                  范数约束
-normalization	                  归一化
-numerical roundoff errors 	  数值舍入误差
-numerically checking 	          数值检验
-numerically reliable	          数值计算上稳定
-object detection	                  物体检测
-objective function	          目标函数
-off-by-one error 	          缺位错误
-orthogonalization	          正交化
-output layer	                  输出层
-overall cost function	          总体代价函数
-over-complete basis	          超完备基
-over-fitting	                  过拟合
-parts of objects              	  目标的部件
-part-whole decompostion	          部分-整体分解
-PCA	                          主元分析
-penalty term	                  惩罚因子
-per-example mean subtraction	  逐样本均值消减
-pooling	                          池化
-pretrain                       	  预训练
-principal components analysis	  主成份分析
-quadratic constraints	          二次约束
-RBMs	                          受限Boltzman机
-reconstruction based models	  基于重构的模型
-reconstruction cost	          重建代价
-reconstruction term	          重构项
-redundant	                  冗余
-reflection matrix	          反射矩阵
-regularization	                  正则化
+intercept term	                  截距  
+KL divergence	                  KL分散度  
+k-Means	                          K-均值  
+learning rate	                  学习速率  
+least squares	                  最小二乘法  
+linear correspondence	          线性响应  
+linear superposition	          线性叠加  
+line-search algorithm	          线搜索算法  
+local mean subtraction	          局部均值消减  
+local optima	                  局部最优解  
+logistic regression	          逻辑回归  
+loss function	                  损失函数  
+low-pass filtering	          低通滤波  
+magnitude	                  幅值  
+MAP	                          极大后验估计  
+maximum likelihood estimation	  极大似然估计  
+mean	                          平均值  
+MFCC	Mel                       倒频系数  
+multi-class classification	  多元分类  
+neural networks	                  神经网络  
+neuron	                          神经元  
+Newton's method 	                  牛顿法  
+non-convex function	          非凸函数  
+non-linear feature	          非线性特征  
+norm	                          范式  
+norm bounded	                  有界范数  
+norm constrained	                  范数约束  
+normalization	                  归一化  
+numerical roundoff errors 	  数值舍入误差  
+numerically checking 	          数值检验  
+numerically reliable	          数值计算上稳定  
+object detection	                  物体检测  
+objective function	          目标函数  
+off-by-one error 	          缺位错误  
+orthogonalization	          正交化  
+output layer	                  输出层  
+overall cost function	          总体代价函数  
+over-complete basis	          超完备基  
+over-fitting	                  过拟合  
+parts of objects              	  目标的部件  
+part-whole decompostion	          部分-整体分解  
+PCA	                          主元分析  
+penalty term	                  惩罚因子  
+per-example mean subtraction	  逐样本均值消减  
+pooling	                          池化  
+pretrain                       	  预训练  
+principal components analysis	  主成份分析  
+quadratic constraints	          二次约束  
+RBMs	                          受限Boltzman机  
+reconstruction based models	  基于重构的模型  
+reconstruction cost	          重建代价  
+reconstruction term	          重构项  
+redundant	                  冗余  
+reflection matrix	          反射矩阵  
+regularization	                  正则化  
 regularization term	          正则化项  
 rescaling	                  缩放  
 robust	                          鲁棒性  
 run	                          行程  
 second-order feature	          二阶特征  
 sigmoid activation function	  S型激励函数  
-significant digits                有效数字
+significant digits                有效数字  
 singular value	                  奇异值  
 singular vector	                  奇异向量  
 smoothed L1 penalty	          平滑的L1范数惩罚  
