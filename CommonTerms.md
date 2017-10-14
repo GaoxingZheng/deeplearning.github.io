@@ -151,55 +151,55 @@ reconstruction term	          重构项
 redundant	                  冗余
 reflection matrix	          反射矩阵
 regularization	                  正则化
-regularization term	          正则化项
-rescaling	                  缩放
-robust	                          鲁棒性
-run	                          行程
-second-order feature	          二阶特征
-sigmoid activation function	  S型激励函数
+regularization term	          正则化项  
+rescaling	                  缩放  
+robust	                          鲁棒性  
+run	                          行程  
+second-order feature	          二阶特征  
+sigmoid activation function	  S型激励函数  
 significant digits                有效数字
-singular value	                  奇异值
-singular vector	                  奇异向量
-smoothed L1 penalty	          平滑的L1范数惩罚
-Smoothed topographic L1 sparsity penalty	平滑地形L1稀疏惩罚函数
-smoothing	                  平滑
-Softmax Regresson	          Softmax回归
-sorted in decreasing order	  降序排列
-source features	                  源特征
-sparse autoencoder	          消减归一化
-Sparsity	                        稀疏性
-sparsity parameter	        稀疏性参数
-sparsity penalty	                稀疏惩罚
-square function	                平方函数
-squared-error	                方差
-stationary	                平稳性（不变性）
-stationary stochastic process	平稳随机过程
-step-size 	                步长值
-supervised learning	        监督学习
-symmetric positive semi-definite matrix	对称半正定矩阵
-symmetry breaking	        对称失效
-tanh function	                双曲正切函数
-the average activation	        平均活跃度
-the derivative checking method	梯度验证方法
-the empirical distribution	经验分布函数
-the energy function	        能量函数
-the Lagrange dual	        拉格朗日对偶函数
-the log likelihood	        对数似然函数
-the pixel intensity value	像素灰度值
-the rate of convergence	        收敛速度
-topographic cost term	        拓扑代价项
-topographic ordered	        拓扑秩序
-transformation	                变换
-translation invariant	        平移不变性
-trivial answer	                平凡解
-under-complete basis	        不完备基
-unrolling 	                组合扩展
-unsupervised learning	        无监督学习
-variance	                        方差
-vecotrized implementation	向量化实现
-vectorization	                矢量化
-visual cortex	                视觉皮层
-weight decay	                权重衰减
-weighted average	                加权平均值
-whitening	                白化
+singular value	                  奇异值  
+singular vector	                  奇异向量  
+smoothed L1 penalty	          平滑的L1范数惩罚  
+Smoothed topographic L1 sparsity penalty	平滑地形L1稀疏惩罚函数  
+smoothing	                  平滑  
+Softmax Regresson	          Softmax回归  
+sorted in decreasing order	  降序排列  
+source features	                  源特征  
+sparse autoencoder	          消减归一化  
+Sparsity	                        稀疏性  
+sparsity parameter	        稀疏性参数  
+sparsity penalty	                稀疏惩罚  
+square function	                平方函数  
+squared-error	                方差  
+stationary	                平稳性（不变性）  
+stationary stochastic process	平稳随机过程  
+step-size 	                步长值  
+supervised learning	        监督学习  
+symmetric positive semi-definite matrix	对称半正定矩阵  
+symmetry breaking	        对称失效  
+tanh function	                双曲正切函数  
+the average activation	        平均活跃度  
+the derivative checking method	梯度验证方法  
+the empirical distribution	经验分布函数  
+the energy function	        能量函数  
+the Lagrange dual	        拉格朗日对偶函数  
+the log likelihood	        对数似然函数  
+the pixel intensity value	像素灰度值  
+the rate of convergence	        收敛速度  
+topographic cost term	        拓扑代价项  
+topographic ordered	        拓扑秩序  
+transformation	                变换  
+translation invariant	        平移不变性  
+trivial answer	                平凡解  
+under-complete basis	        不完备基  
+unrolling 	                组合扩展  
+unsupervised learning	        无监督学习  
+variance	                        方差  
+vecotrized implementation	向量化实现  
+vectorization	                矢量化  
+visual cortex	                视觉皮层  
+weight decay	                权重衰减  
+weighted average	                加权平均值  
+whitening	                白化  
 zero-mean	                均值为零
