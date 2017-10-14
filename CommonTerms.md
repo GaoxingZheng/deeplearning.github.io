@@ -33,57 +33,57 @@
 activation	                  激活值  
 activation function	          激活函数  
 additive noise	                  加性噪声  
-autoencoder	                  自编码器
-Autoencoders	                  自编码算法
-average firing rate	          平均激活率
-average sum-of-squares error	  均方差
-backpropagation	                  后向传播
-basis	                          基
-basis feature vectors	          特征基向量
-batch gradient ascent	          批量梯度上升法
-Bayesian regularization method	  贝叶斯规则化方法
-Bernoulli random variable	  伯努利随机变量
-bias term 	                  偏置项
-binary classfication	          二元分类
-class labels	                  类型标记
-concatenation	                  级联
-conjugate gradient 	          共轭梯度
-contiguous groups	          联通区域
-convex optimization software	  凸优化软件
-convolution	                  卷积
-cost function	                  代价函数
-covariance matrix	          协方差矩阵
-DC component	                  直流分量
-decorrelation	                  去相关
-degeneracy	                  退化
-demensionality reduction          降维
-derivative	                  导函数
-diagonal                          对角线
-diffusion of gradients	          梯度的弥散
-eigenvalue	                  特征值
-eigenvector	                  特征向量
-error term	                  残差
-feature matrix 	                  特征矩阵
-feature standardization	          特征标准化
-feedforward architectures	  前馈结构算法
-feedforward neural network	  前馈神经网络
-feedforward pass	                  前馈传导
-fine-tuned	                  微调
-first-order feature	          一阶特征
-forward pass	                  前向传导
-forward propagation	          前向传播
-Gaussian prior	                  高斯先验概率
-generative model	                  生成模型
-gradient descent            	  梯度下降
-Greedy layer-wise training	  逐层贪婪训练方法
-grouping matrix	                  分组矩阵
-Hadamard product                  阿达马乘积
-Hessian matrix 	Hessian           矩阵
-hidden layer	                  隐含层
-hidden units	                  隐藏神经元
-Hierarchical grouping	          层次型分组
-higher-order features	          更高阶特征
-highly non-convex optimization problem	高度非凸的优化问题
+autoencoder	                  自编码器  
+Autoencoders	                  自编码算法  
+average firing rate	          平均激活率  
+average sum-of-squares error	  均方差  
+backpropagation	                  后向传播  
+basis	                          基  
+basis feature vectors	          特征基向量  
+batch gradient ascent	          批量梯度上升法  
+Bayesian regularization method	  贝叶斯规则化方法  
+Bernoulli random variable	  伯努利随机变量  
+bias term 	                  偏置项  
+binary classfication	          二元分类  
+class labels	                  类型标记  
+concatenation	                  级联  
+conjugate gradient 	          共轭梯度  
+contiguous groups	          联通区域  
+convex optimization software	  凸优化软件  
+convolution	                  卷积  
+cost function	                  代价函数  
+covariance matrix	          协方差矩阵  
+DC component	                  直流分量  
+decorrelation	                  去相关  
+degeneracy	                  退化  
+demensionality reduction          降维  
+derivative	                  导函数  
+diagonal                          对角线  
+diffusion of gradients	          梯度的弥散  
+eigenvalue	                  特征值  
+eigenvector	                  特征向量  
+error term	                  残差  
+feature matrix 	                  特征矩阵  
+feature standardization	          特征标准化  
+feedforward architectures	  前馈结构算法  
+feedforward neural network	  前馈神经网络  
+feedforward pass	                  前馈传导  
+fine-tuned	                  微调  
+first-order feature	          一阶特征  
+forward pass	                  前向传导  
+forward propagation	          前向传播  
+Gaussian prior	                  高斯先验概率  
+generative model	                  生成模型  
+gradient descent            	  梯度下降  
+Greedy layer-wise training	  逐层贪婪训练方法  
+grouping matrix	                  分组矩阵  
+Hadamard product                  阿达马乘积  
+Hessian matrix      Hessian 矩阵    
+hidden layer	                  隐含层  
+hidden units	                  隐藏神经元  
+Hierarchical grouping	          层次型分组  
+higher-order features	          更高阶特征  
+highly non-convex optimization problem	高度非凸的优化问题  
 histogram	                  直方图
 hyperbolic tangent	          双曲正切函数
 hypothesis	                  估值，假设
