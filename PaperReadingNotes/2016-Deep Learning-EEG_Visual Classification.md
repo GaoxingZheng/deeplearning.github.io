@@ -1,8 +1,8 @@
 #### Paper Title : "Deep Learning Human Mind for Automated Visual Classification"  
 #### Paper website : https://arxiv.org/abs/1609.00344  
 @YunTuring, zheng_gao_xing@163.com;    
-*Markdown生成水平分割线：可以单独一行里输入3个或以上的短横线（减号）、星号或者下划线实现。短横线和星号之间可以任意空格。*
-一、摘要
+>*Markdown生成水平分割线：可以单独一行里输入3个或以上的短横线（减号）、星号或者下划线实现。短横线和星号之间可以任意空格。*   
+#### 一、摘要   
 > 如果我们能够有效地阅读思维(read the mind)并将人类视觉能力迁移到计算机视觉方法上会怎么样？在本文中，
 我们旨在通过开发人脑信号驱动的第一个视觉对象分类器来解决这个问题。特别地，我们采用与循环神经网络(RNN)结合的视觉对象刺激诱发EEG数据，
 在阅读思维的努力中学习视觉类别的辨别性脑活动manifold。之后，我们通过训练基于卷积神经网络(CNN)的回归器将学习的能力迁移到机器上，
