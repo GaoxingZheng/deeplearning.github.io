@@ -51,7 +51,7 @@
 > 本文采用两种基于CNN的方法来从一幅输入图像中提取脑电特征：
 >* 方法1：
 >* 方法2：
-![图4]()
+![图4](https://github.com/YunTuring/deeplearning.github.io/blob/master/PaperReadingNotes/PaperPictures/2016-EEG-CNN-Regression.jpg)
 #### 五、性能分析   
 > 请参考论文(此处省略)   
 #### 六、讨论
