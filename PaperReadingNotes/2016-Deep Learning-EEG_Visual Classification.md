@@ -45,8 +45,8 @@
 在本文的实验中，作者测试了编码器网络的几种配置：   
 > （1）*Common LSTM*   
 > （2）*Channel LSTM* + *Common LSTM*   
-> （3）*Common LSTM* + *output layer*
-![图3]()
+> （3）*Common LSTM* + *output layer*   
+![图3](https://github.com/YunTuring/deeplearning.github.io/blob/master/PaperReadingNotes/PaperPictures/2016-EEG-LSTM.jpg)
 #### 基于CNN的回归器对脑电manifold进行视觉分类
 > 本文采用两种基于CNN的方法来从一幅输入图像中提取脑电特征：
 >* 方法1：
