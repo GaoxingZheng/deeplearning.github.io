@@ -13,6 +13,13 @@
 >* * *
 > What if we could effectively read the mind and transfer human visual capabilities to computer vision methods? In this paper, we aim at addressing this question by developing the first visual object classifier driven by human brain signals. In particular, we employ EEG data evoked by visual object stimuli combined with Recurrent Neural Networks (RNN) to learn a discriminative brain activity manifold of visual categories in a reading the mind effort. Afterward, we transfer the learned capabilities to machines by training a Convolutional Neural Network (CNN)–based regressor to project images onto the learned manifold, thus allowing machines to employ human brain–based features for automated visual classification. We use a 128-channel EEG with active electrodes to record brain activity of several subjects while looking at images of 40 ImageNet object classes. The proposed RNN-based approach for discriminating object classes using brain signals reaches an average accuracy of about 83%, which greatly outperforms existing methods attempting to learn EEG visual object representations. As for automated object categorization, our human brain–driven approach obtains competitive performance, comparable to those achieved by powerful CNN models and it is also able to generalize over different visual datasets.
 >- - - 
-二、背景介绍   
-> 尽管最近卷积神经网络(CNN)在自动视觉分类方面具有很好的性能提升，但他们的泛化能力还不能和人类比拟。因为学习可区分的特征空间严格依赖训练数据集而不是通用的准则，更特别地是，CNN的第一层特征在跨不同数据集似乎都通用(generalizable)，该层特征和Gabor滤波器和彩色斑点(color blobs)很相似；然而对于特别地数据集或任务，CNN的最后一层就变得非常specific。人类视觉分类则相反，人类视觉对象识别的过程建立在感知(即物体在形状，颜色等方面是如何以视觉方式出现的等，感知这块所有的特征都可以用CNN的第一层建模)和概念(包含从未被剥夺的更高级的认知过程)。一些认知神经科学研究发现视觉皮层部分和大脑和这些认知过程有关，但，迄今为止没有清晰的solution。当然，这折射了基于认知功能的自动视觉分类方法的困难性。   
- 作者认为一个可能的解决方法是反向工程学的手段，通过分析由神经心理学(EEG/MEG)和神经影像学(如，fMRI)记录得到的
+#### 二、背景介绍   
+>   尽管最近卷积神经网络(CNN)在自动视觉分类方面具有很好的性能提升，但他们的泛化能力还不能和人类比拟。因为学习可区分的特征空间严格依赖训练数据集而不是通用的准则，更特别地是，CNN的第一层特征在跨不同数据集似乎都通用(generalizable)，该层特征和Gabor滤波器和彩色斑点(color blobs)很相似；然而对于特别地数据集或任务，CNN的最后一层就变得非常specific。人类视觉分类则相反，人类视觉对象识别的过程建立在感知(即物体在形状，颜色等方面是如何以视觉方式出现的等，感知这块所有的特征都可以用CNN的第一层建模)和概念(包含从未被剥夺的更高级的认知过程)。一些认知神经科学研究发现视觉皮层部分和大脑和这些认知过程有关，但，迄今为止没有清晰的solution。当然，这折射了基于认知功能的自动视觉分类方法的困难性。   
+> * * *
+> 作者认为一个可能的解决方法是反向工程学的手段，通过分析由神经心理学(EEG/MEG)和神经影像学(如，fMRI)记录得到的人脑活动，通过使用人类视觉分类识别特征空间.理解特定刺激诱发得到的EEG数据是脑机接口(BCI)领域多年来的目标。脑机接口致力于分类或检测特定的脑信号，以允许残疾人能够直接控制机器。这篇文章想在经典的BCI研究方法基础上有跳跃式的改进，致力于探索human-based 计算策略进行自动视觉分类。这个过程主要分为两大过程：reading the mind，然后transfer human visual capabilities to machines。识别视觉categorization基于EEG的可区分的特征对理解人类视觉系统提供了新的观点，将极大改进BCI应用程序的性能，还有可能提供新的基于脑的图像标注形式。第二，有效地将图像投影到新的基于生物学的manifold中将会彻底改变对象分类器的开发方式（主要是在特征提取方面）。   
+>* 基于深度学习的方法来分类由视觉对象刺激诱发的EEG信号，在处理对象分类和分类准确率方面超出了state-of-the-art方法。   
+>* 首次提出了脑信号驱动的计算机视觉方法。
+>* 随后会公开发布最大的视觉对象分析的EEG数据库，包含相关的源代码和训练好的模型。   
+#### 三、相关研究工作
+> 
+
