@@ -15,7 +15,10 @@
 2. *tanh* : Still kills gradients when saturated;   
 3. *ReLU* : f(x) = max(0,x)； first, Does not saturate (in +region); second, Very computationally efficient; third, Converges much faster than sigmoid/tanh in practice. while, it still has these two cons, such as Not zero-centered output, and the gradient becomes zero when x<0.    
 4. *Leaky ReLu* : it has four pros. first, Does not saturate; second, Computationally efficient; third, Converges much faster than sigmoid/tanh in practice! fourth, will not "die". it can derive "Parametric Rectifier (PReLU)", which represents as a form f(x) = max(alpha\*x,x), the para alpha can optimize by backprop algorithm. 
-5. *Exponential Linear Units (ELU)* : thress pros. first, All benefits of ReLU; second, Does not die; third, Closer to zero mean outputs. while its comuptation requires exp(), which may bring expensive computation cost.
+5. *Exponential Linear Units (ELU)* : thress pros. first, All benefits of ReLU; second, Does not die; third, Closer to zero mean outputs. while its comuptation requires exp(), which may bring expensive computation cost.    
+6. *Maxout "Neuron"* : which represents as a form max(w1\*x+b1, w2\*x2+b2). it has three pros. one, Does not have the basic form of dot product -> nolinearity; two, Generalizes ReLU and Leaky ReLu; three, Linear Regime! Does not saturate! Does not die! However, it will meet the problem, which means doubles the number of parameters/neuron.   
+
+
 
 
 
