@@ -1,4 +1,6 @@
 
+### Statement:    
+> this reading notes summarized by YunTuring, thanks for Feifei Li and his students transfer their knowledge to all over the world, thanks for Stanford University, if you want to copy my notes, please ask for my authorization by emailing zheng_gao_xing@163.com; Welcome to contact with me, and discuss anything about AI, thank you!
 ### Overview
 #### 1. One time setup   
 *activation functions, preprocessing, weight initialization, regularization, gradient checking*
@@ -13,7 +15,7 @@
 2. *tanh* : Still kills gradients when saturated;   
 3. *ReLU* : f(x) = max(0,x)； first, Does not saturate (in +region); second, Very computationally efficient; third, Converges much faster than sigmoid/tanh in practice. while, it still has these two cons, such as Not zero-centered output, and the gradient becomes zero when x<0.    
 4. *Leaky ReLu* : it has four pros. first, Does not saturate; second, Computationally efficient; third, Converges much faster than sigmoid/tanh in practice! fourth, will not "die". it can derive "Parametric Rectifier (PReLU)", which represents as a form f(x) = max(alpha\*x,x), the para alpha can optimize by backprop algorithm. 
-5. *Exponential Linear Units (ELU)* : 
+5. *Exponential Linear Units (ELU)* : thress pros. first, All benefits of ReLU; second, Does not die; third, Closer to zero mean outputs. while its comuptation requires exp(), which may bring expensive computation cost.
 
 
 
