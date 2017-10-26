@@ -9,7 +9,7 @@
 #### 3. Evaluation   
 *model ensembles*    
 
-#### Activation functions: 激活函数的作用增加非线性，这样深层神经网络才可以提取更多不同的特征。   
+#### 一. Activation functions: 激活函数的作用增加非线性，这样深层神经网络才可以提取更多不同的特征。   
 （1） Sigmoid；（2）tanh；（3）ReLU : max(0,x)；（4）Leaky ReLU : max(0.1x, x)；（5）Maxout；（6）ELU；    
 1. *Sigmoid function* : when adopt Sigmoid as activation functions, it will bring three problems: first, Saturated neurons "kill" the gradients; Second, Sigmoid outputs are not zero-centered; Third, exp() is a bit compute expensive;       
 2. *tanh* : Still kills gradients when saturated;   
@@ -17,6 +17,13 @@
 4. *Leaky ReLu* : it has four pros. first, Does not saturate; second, Computationally efficient; third, Converges much faster than sigmoid/tanh in practice! fourth, will not "die". it can derive "Parametric Rectifier (PReLU)", which represents as a form f(x) = max(alpha\*x,x), the para alpha can optimize by backprop algorithm. 
 5. *Exponential Linear Units (ELU)* : thress pros. first, All benefits of ReLU; second, Does not die; third, Closer to zero mean outputs. while its comuptation requires exp(), which may bring expensive computation cost.    
 6. *Maxout "Neuron"* : which represents as a form max(w1\*x+b1, w2\*x2+b2). it has three pros. one, Does not have the basic form of dot product -> nolinearity; two, Generalizes ReLU and Leaky ReLu; three, Linear Regime! Does not saturate! Does not die! However, it will meet the problem, which means doubles the number of parameters/neuron.   
+- - -
+Lecturer gives these tips for choosing activation function in practice.
+> (1). Use ReLU, Be careful with your learning rates.    
+> (2). Try out Leaky ReLU / Maxout / ELU.   
+> (3). Try out tanh but don't expect much.   
+> (4). Don't use sigmoid.   
+#### 二. Data Preprocessing   
 
 
 
