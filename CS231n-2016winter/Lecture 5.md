@@ -28,6 +28,11 @@ Step 1 : Preprocess the data
 original data -> zero-centered data (by using operator X -= np.mean(X, axis = 0)) -> normalized data(by using operator X /= np.std(X, axis = 0)). In practice, you may also see PCA and Whitening of the data --- the form as "original data" -> "decorrelated data" -> "whitened data".    
 #### 三. Weight Initialization    
 First idea : Small random numbers(gaussian with zero mean and 1e-2 standard deviation), such as w = 0.01\*np.random.randn(D,H). It works okay for small networks, but can lead to non-homogeneous distributions of activations across the layers of a network.    
+Proper initialization is an active area of research....     
+Batch Normalization   
+1. compute the empirical mean and variance independently for each dimension.   
+2. Normalize   
+![]()   
 
 
 
