@@ -32,7 +32,7 @@ Proper initialization is an active area of research....
 Batch Normalization   
 1. compute the empirical mean and variance independently for each dimension.   
 2. Normalize   
-![]()   
+![](https://github.com/YunTuring/deeplearning.github.io/blob/master/CS231n-2016winter/Pictures/Batch%20Normalization.png)   
 
 
 
