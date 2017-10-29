@@ -1,6 +1,6 @@
 
 ### Statement:    
-> this reading notes summarized by YunTuring, thanks for Feifei Li and his students transfer their knowledge to all over the world, thanks for Stanford University, if you want to copy my notes, please ask for my authorization by emailing zheng_gao_xing@163.com; Welcome to contact with me, and discuss anything about AI, thank you!
+> this reading notes summarized by YunTuring(@zheng_gao_xing@163.com), thanks for Feifei Li and his students transfer their knowledge to all over the world, thanks for Stanford University!
 ### Overview
 #### 1. One time setup   
 *activation functions, preprocessing, weight initialization, regularization, gradient checking*
