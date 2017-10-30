@@ -28,11 +28,16 @@ Step 1 : Preprocess the data
 original data -> zero-centered data (by using operator X -= np.mean(X, axis = 0)) -> normalized data(by using operator X /= np.std(X, axis = 0)). In practice, you may also see PCA and Whitening of the data --- the form as "original data" -> "decorrelated data" -> "whitened data".    
 #### 三. Weight Initialization    
 First idea : Small random numbers(gaussian with zero mean and 1e-2 standard deviation), such as w = 0.01\*np.random.randn(D,H). It works okay for small networks, but can lead to non-homogeneous distributions of activations across the layers of a network.    
-Proper initialization is an active area of research....     
+Proper initialization is an active area of research....    
+    
 Batch Normalization   
 1. compute the empirical mean and variance independently for each dimension.   
 2. Normalize   
 ![](https://github.com/YunTuring/deeplearning.github.io/blob/master/CS231n-2016winter/Pictures/Batch%20Normalization.png)   
+(1) improves gradient flow through the network.   
+(2) Allows higher learning rates.   
+(3) Reduces the strong dependence on initialization.    
+(4) Acts as a form of regularization in a funny way, and sightly reduces the need for dropout,maybe.   
 
 
 
