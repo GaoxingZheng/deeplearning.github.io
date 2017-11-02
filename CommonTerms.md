@@ -8,10 +8,9 @@
 6、http://www.cnblogs.com/zhonghuasong/p/7256498.html  
 7、http://www.cnblogs.com/love6tao/p/5841648.html  
 #### Markdown换行操作：空格+空格+回车  
-If you have any question to ask, please contact with me by emailing to zheng_gao_xing@163.com;
-It's my pleasure to discuss any question about AI if I understand it well.  
+If you have any question to ask, please contact with me; It's my pleasure to discuss any question about AI if I understand it well.  
 
-一、YunTuring阅读文献总结的：
+一、ChinaHQ阅读文献总结的：
 
 1. region proposal(RP)     候选区域
 2. RPN(Region Proposal Networks)
